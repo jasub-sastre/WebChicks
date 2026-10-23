@@ -1,0 +1,9 @@
+.ac-cart {
+  padding-top: var(--space-12);
+  padding-bottom: var(--space-24);
+}
+
+.ac-cart h1 {
+  font-size: var(--text-2xl);
+  margin-bottom: var(--space-4);
+}

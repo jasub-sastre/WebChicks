@@ -1,0 +1,17 @@
+.ac-brand {
+  background: var(--color-pink-50);
+  padding-top: var(--space-16);
+  padding-bottom: var(--space-16);
+  margin-bottom: var(--space-16);
+}
+
+.ac-brand__inner {
+  max-width: 640px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.ac-brand__inner p {
+  color: var(--color-ink-700);
+  margin: 0 auto;
+}

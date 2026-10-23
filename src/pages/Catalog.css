@@ -1,0 +1,60 @@
+.ac-catalog {
+  padding-top: var(--space-12);
+  padding-bottom: var(--space-24);
+}
+
+.ac-catalog__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+
+.ac-catalog__header h1 {
+  font-size: var(--text-2xl);
+  margin: 0;
+}
+
+.ac-catalog__count {
+  color: var(--color-ink-500);
+  font-size: var(--text-sm);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.ac-catalog__filters {
+  display: flex;
+  gap: var(--space-2);
+  overflow-x: auto;
+  padding-bottom: var(--space-3);
+  margin-bottom: var(--space-8);
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.ac-catalog__filters::-webkit-scrollbar {
+  display: none;
+}
+
+.ac-catalog__filters a {
+  flex: 0 0 auto;
+  font-size: var(--text-sm);
+  color: var(--color-ink-700);
+  text-decoration: none;
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--color-border);
+  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease;
+}
+
+.ac-catalog__filters a:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent-hover);
+}
+
+.ac-catalog__filters a.is-active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-white);
+}

@@ -1,0 +1,38 @@
+.ac-button {
+  font-family: var(--font-display);
+  font-weight: var(--weight-medium);
+  font-size: var(--text-sm);
+  border-radius: var(--radius-pill);
+  padding: var(--space-3) var(--space-8);
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease;
+}
+
+.ac-button--primary {
+  background: var(--color-accent);
+  color: var(--color-white);
+}
+.ac-button--primary:hover {
+  background: var(--color-accent-hover);
+}
+
+.ac-button--secondary {
+  background: transparent;
+  color: var(--color-ink-900);
+  border-color: var(--color-border);
+}
+.ac-button--secondary:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent-hover);
+}
+
+.ac-button--ghost {
+  background: transparent;
+  color: var(--color-accent-hover);
+  padding-left: var(--space-2);
+  padding-right: var(--space-2);
+}
+.ac-button--ghost:hover {
+  text-decoration: underline;
+}

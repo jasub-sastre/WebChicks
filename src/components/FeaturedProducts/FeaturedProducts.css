@@ -1,0 +1,19 @@
+.ac-featured {
+  padding-bottom: var(--space-16);
+}
+
+.ac-featured__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.ac-featured__link {
+  font-size: var(--text-sm);
+  color: var(--color-accent-hover);
+  text-decoration: none;
+}
+
+.ac-featured__link:hover {
+  text-decoration: underline;
+}
